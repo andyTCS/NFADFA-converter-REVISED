@@ -14,6 +14,7 @@
 #include "create_table.hpp"
 #include "find_next_starting_states.hpp"
 #include "nfa_example1.hpp"
+#include "print_table.hpp"
 
 // Converts NFA to DFA by creating an epsilon-closure list and using that list to create a transition table for the DFA.
 

@@ -11,6 +11,6 @@
 using namespace std;
 
 // Creates a list of 'auto included' states used for the next eClosure list entry. This will be used to expand the set of NFA transitions
-map<string, set<string>> find_next_starting_states(NFA nfa, set<string> eClosure, char current_DFA_character = '\0');
+map<string, set<string>> find_next_starting_states(NFA nfa, set<string> eClosure);
 
 #endif
